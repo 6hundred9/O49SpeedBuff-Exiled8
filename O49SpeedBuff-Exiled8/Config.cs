@@ -4,7 +4,7 @@ namespace O49SpeedBuff_Exiled8
 {
     public class Config : IConfig
     {
-        public bool IsEnabled { get; set; }
-        public bool Debug { get; set; }
+        public bool IsEnabled { get; set; } = true;
+        public bool Debug { get; set; } = false;
     }
 }
